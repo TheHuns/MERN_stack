@@ -26,7 +26,7 @@ class AppNavbar extends Component {
             <Navbar color="dark" dark expand="sm" className="mb-5">
                <Container>
                   <NavbarBrand href="/">Shopping List</NavbarBrand>
-                  <NavbarToggler onClick={this.toggle}> </NavbarToggler>
+                  <NavbarToggler onClick={() => this.toggle()}> </NavbarToggler>
                   <Collapse isOpen={this.state.isOpen} navbar>
                      <Nav className="ml-auto" navbar>
                         <NavItem>
