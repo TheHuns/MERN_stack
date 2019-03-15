@@ -1,3 +1,4 @@
 module.exports = {
-   mongoURI: "mongodb://localhost:27017/sandbox"
+   mongoURI:
+      "mongodb+srv://dehnger:Bayfield85!@cluster0-cho1k.mongodb.net/test?retryWrites=true"
 };
